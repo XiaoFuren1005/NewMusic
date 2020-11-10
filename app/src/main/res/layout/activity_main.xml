@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background=""
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="音乐播放器"
+        android:textSize="40sp"
+        android:background=""
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/Stop"
+            android:layout_width="70dp"
+            android:background=""
+            android:layout_height="match_parent"
+            android:text="stop"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/Start"
+            android:layout_width="70dp"
+            android:layout_height="43dp"
+            android:text="start"
+            android:background=""
+            android:layout_marginLeft="20sp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/Pause"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:text="Pause"
+            android:background=""
+            android:layout_marginLeft="20sp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/Xvnhuan"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:text="coll"
+            android:background=""
+            android:layout_marginLeft="20sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <RadioButton
+        android:id="@+id/r1"
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:text="Let ME Down Slowly"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/r2"
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:textSize="25dp"
+        android:text="孔雀"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:id="@+id/r3"
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:text="情人"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints" >
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:background=""
+        android:max="100"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
